@@ -1,0 +1,25 @@
+header{
+    background-color: blue;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+}
+/* .text-primary{
+    color: white;
+} */
+ .img-fluid{
+    width: 400px;
+ }
+ .sign{
+    width: 300px;
+ }
+ @media screen and (max-width:992px) {
+    .img-fluid{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        height: 400px;
+    }
+    
+ }
